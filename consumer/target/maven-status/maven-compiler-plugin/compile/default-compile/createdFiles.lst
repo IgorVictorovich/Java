@@ -1,0 +1,8 @@
+consumer\objects\City.class
+consumer\objects\Response.class
+consumer\objects\Country.class
+consumer\objects\Request.class
+consumer\Application.class
+consumer\QueryCountryList.class
+domain\objects\CityObj.class
+domain\objects\CountryObj.class
