@@ -12,7 +12,10 @@ Hibernate config
 нужно прописать адрес БД, УЗ и пароль для подключения к базе:
 
 <property name="connection.url">jdbc:postgresql://ip:port/dbName</property>
+
 <property name="connection.username">@username</property>
+
 <property name="connection.password">@password</property>
+
 по-умолчанию - сконфигурировано для работы с PostgreSQL
 ******************************************************************************
