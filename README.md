@@ -17,5 +17,8 @@ Hibernate config
 
 <property name="connection.password">@password</property>
 
-по-умолчанию - сконфигурировано для работы с PostgreSQL
+по-умолчанию - сконфигурировано для работы с PostgreSQL.
+Если в базе отсутствует схема public, нужно ее создать.
+Пример для PostgreSQL:
+CREATE SCHEMA public;
 ******************************************************************************
